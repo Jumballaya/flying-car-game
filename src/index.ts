@@ -85,8 +85,7 @@ const main = async () => {
   const gameOverScreen = new GameOverScreen();
   const luggageCount = new LuggageCount();
 
-  // startScreen.activate();
-  gameOverScreen.activate(123, 14);
+  startScreen.activate();
 
   // Create Objects and initialize them
 

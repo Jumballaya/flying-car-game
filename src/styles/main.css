@@ -80,11 +80,20 @@ html, body {
 }
 
 .start-menu-container h1 {
-  font-size: 120px;
-}
+  margin: 0;
+  margin-bottom: 44px;
+  font-size: 80px;
+  font-family: 'Pirulen Regular';}
 
 .start-menu-container h2 {
-  font-size: 60px;
+  margin: 0;
+  margin-bottom: 22px;
+  font-size: 40px;}
+
+.start-menu-container h3 {
+  margin: 0;
+  margin-bottom: 22px;
+  font-size: 30px;
 }
 
 .game-over-container {

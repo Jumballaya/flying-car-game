@@ -2,7 +2,8 @@ const html = `
 <div class="start-menu-container">
   <h1>Start Game</h1>
   <h2>Click [Space] to start</h2>
-  <h2>Click [Escape] to pause</h2>
+  <h3>Click [Escape] to pause</h3>
+  <h3>Steer with [WASD]</h3>
 </div>
 `;
 
