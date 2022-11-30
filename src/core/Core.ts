@@ -1,7 +1,6 @@
 import GUI from 'lil-gui';
 import * as THREE from 'three';
 import { ResourceLoader } from './ResourceLoader';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { TickFunction } from './types/tick-function.type';
 import { Inputs } from './inputs/Inputs';
 import { Bindings } from './inputs/Bindings';
@@ -27,6 +26,11 @@ export class Core {
     this.$canvas = document.createElement('canvas') as HTMLCanvasElement;
     this.$canvas.setAttribute('class', 'webgl');
     document.body.appendChild(this.$canvas);
+
+    console.log(window.location.hash);
+    if (window.location.hash !== '#dev') {
+      this.gui.hide();
+    }
 
     this.scene = new THREE.Scene();
     this.camera = this.setupCamera();
