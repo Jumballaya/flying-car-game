@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Pirulen Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/pirulen.rg-regular.otf') format('otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.webgl {
+  left: 0;
+  top: 0;
+  position: fixed;
+  cursor: none;
+}
+
+
+.pause-menu-container {
+  background-color: rgba(0.0, 0.0, 0.0, 0.75);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.pause-menu-container h1 {
+  font-size: 120px;
+}
+
+.pause-menu-container h2 {
+  font-size: 60px;
+}
+  
+.travel-distance-container {
+  position: absolute;
+  color: white;
+  left: calc(50% - 132px);
+  top: calc(50% - 150px);
+  font-size: 24px;
+  width: 200px;
+}
+
+.travel-distance-container .digital {
+  font-family: 'Pirulen Regular';
+}
+
+.luggage-count-container {
+  position: absolute;
+  color: white;
+  left: calc(50% + 28px);
+  top: calc(50% - 150px);
+  font-size: 24px;
+  font-family: 'Pirulen Regular';
+}
+
+.start-menu-container {
+  background-color: rgba(0.0, 0.0, 0.0, 0.75);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.start-menu-container h1 {
+  font-size: 120px;
+}
+
+.start-menu-container h2 {
+  font-size: 60px;
+}
+
+.game-over-container {
+  background-color: rgba(0.0, 0.0, 0.0, 0.75);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.game-over-container h1 {
+  margin: 0;
+  margin-bottom: 44px;
+  font-size: 80px;
+  font-family: 'Pirulen Regular';
+}
+
+.game-over-container h2 {
+  margin: 0;
+  margin-bottom: 22px;
+  font-size: 40px;
+}
+
+.game-over-container h3 {
+  margin: 0;
+  font-size: 30px;
+}
